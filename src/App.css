@@ -1,0 +1,15 @@
+
+a  {
+    color: black;
+    text-decoration: none;
+}
+.MainNav  .active  {
+    color: red;
+}
+
+.Header {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
