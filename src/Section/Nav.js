@@ -7,7 +7,7 @@ const Navigation = () => {
     return (<>
         <div>
             <div className="">
-                <div className="d-flex fw-bold p-3" style={{ zIndex:'3',justifyContent: 'space-between', backgroundColor: 'rgba(191, 191, 166, 0.9)', position:'fixed', width:'100%'}}>
+                <div className="d-flex fw-bold p-3" style={{ zIndex:'3',justifyContent: 'space-between', backgroundColor: 'rgba(191, 191, 166, 0.9)',width:'100%', position:'fixed'}}>
                     <div className="">
                         <NavLink className='Header' to='/'>Header</NavLink>
                     </div>

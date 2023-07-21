@@ -10,7 +10,7 @@ const  App = () => {
     <div className="">
       <div>
         <BrowserRouter>
-        <div className='d-flex flex-column justify-content-center'>
+        <div style={{minHeight:'100vh'}} className='d-flex flex-column justify-content-between'>
             <Navigation/>
             <div>
               <Routes>

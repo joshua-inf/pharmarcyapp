@@ -6,10 +6,10 @@ const Footer = () => {
     return (
         <>
             <div>
-                <div className="p-3 bg-dark text-white">
+                <div className=" bg-dark text-white" style={{}}>
                     <div>
-                        <div>
-                            <div className="d-flex justify-content-between">
+                        <div className="">
+                            <div className="d-md-flex p-3 d-block justify-content-between">
                                 <div className="text-uppercase d-flex justify-content-center flex-column display-4 fw-bold">header here</div>
                                 <div>
                                     <div className="py-2">
@@ -19,7 +19,7 @@ const Footer = () => {
                                     <div>
                                         <div>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" style={{minWidth:'400px'}} aria-label="Text input with segmented dropdown button"/>
+                                                <input type="text" class="form-control" style={{maxWidth:'400px'}} aria-label="Text input with segmented dropdown button"/>
                                                     <div class="input-group-append">
                                                         <button type="button" class="btn btn-lg rounded-0 btn-danger">Search</button>
                                                         
@@ -38,7 +38,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="text-center" style={{fontSize:'12px'}}>
+                            <div className="text-center p-2" style={{fontSize:'12px'}}>
                                 &copy;2023 PharmarcyNameHere | All Rights Reserved
                             </div>
                         </div>
