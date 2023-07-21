@@ -1,6 +1,9 @@
 import image1 from '../Images/4.jpg'
 import image2 from '../Images/14.webp'
 import image3 from '../Images/10.jpg'
+import image4 from '../Images/19.jpg'
+import image5 from '../Images/21.jpg'
+import image6 from '../Images/20.jpg'
 
 
 import { AiOutlineCheckCircle } from 'react-icons/ai'
@@ -17,21 +20,23 @@ const Home = () => {
                         <div className='row'>
                             <div className='col-md-1'></div>
                             <div className='col-md-10 col-12'>
-                                <div className='d-flex flex-column justify-content-center'>
-                                    <div >
-                                        <div className='' style={{ margin: '40px' }}>
-                                            <div className='fw-bold display-4'>
-                                                HEADER
-                                            </div>
-                                            <div className='fw-bold display-6'>
-                                                something HERE ABOUT SOMETHING
-                                            </div>
-                                            <div>
-                                                Cupidatat aute eiusmod adipisicing nulla adipisicing qui cupidatat
-                                                occaecat veniam occaecat aliqua fugiat.
-                                            </div>
-                                            <div className='mt-2'>
-                                                <button className='btn btn-lg rounded-0 btn-outline-dark'>Contact Us</button>
+                                <div style={{minHeight:'50vh'}}>
+                                    <div className='d-flex flex-column h-100 justify-content-center'>
+                                        <div>
+                                            <div className='bg-ligh' style={{ margin: '40px' }}>
+                                                <div className='fw-bold display-4'>
+                                                    SILKE GROUP
+                                                </div>
+                                                <div className='fw-bold display-6'>
+                                                    something HERE ABOUT SOMETHING
+                                                </div>
+                                                <div>
+                                                    Cupidatat aute eiusmod adipisicing nulla adipisicing qui cupidatat
+                                                    occaecat veniam occaecat aliqua fugiat.
+                                                </div>
+                                                <div className='mt-2'>
+                                                    <button className='btn btn-lg rounded-0 btn-outline-dark'>Contact Us</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -39,18 +44,51 @@ const Home = () => {
                                 <div>
                                     <div className=''>
                                         <div className='row'>
-                                            <div className='col-6 col-md-3 p-2' style={{ height: '200px' }}>
-                                                <div className='bg-dark h-100 w-100'></div>
+                                            <div className='col-6 col-md-3 p-2 option'>
+                                                <div  style={{ height: '200px', position:'relative' }}>
+                                                    <div className='option-img'>
+                                                        <img src={image1} width='100%' className=''/>
+                                                        <div className='background'></div>
+                                                    </div>
+                                                    <div className='text-option' style={{}}>
+                                                        Pharmarcy
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className='col-6 col-md-3 p-2' style={{ height: '200px' }}>
-                                                <div className='bg-dark h-100 w-100'></div>
+                                            <div className='col-6 col-md-3 p-2 option'>
+                                                <div  style={{ height: '200px', position:'relative' }}>
+                                                    <div className='option-img'>
+                                                        <img src={image4} width='100%' className=''/>
+                                                        <div className='background'></div>
+                                                    </div>
+                                                    <div className='text-option' style={{}}>
+                                                        Pharmarcuticals
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className='col-6 col-md-3 p-2' style={{ height: '200px' }}>
-                                                <div className='bg-dark h-100 w-100'></div>
+                                            <div className='col-6 col-md-3 p-2 option'>
+                                                <div  style={{ height: '200px', position:'relative' }}>
+                                                    <div className='option-img'>
+                                                        <img src={image5} width='100%' className=''/>
+                                                        <div className='background'></div>
+                                                    </div>
+                                                    <div className='text-option' style={{}}>
+                                                        Enterprises
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className='col-6 col-md-3 p-2' style={{ height: '200px' }}>
-                                                <div className='bg-dark h-100 w-100'></div>
+                                            <div className='col-6 col-md-3 p-2 option'>
+                                                <div  style={{ height: '200px', position:'relative' }}>
+                                                    <div className='option-img'>
+                                                        <img src={image6} width='100%' className=''/>
+                                                        <div className='background'></div>
+                                                    </div>
+                                                    <div className='text-option' style={{}}>
+                                                        Cash Express
+                                                    </div>
+                                                </div>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

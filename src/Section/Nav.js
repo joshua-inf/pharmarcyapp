@@ -13,10 +13,10 @@ const Navigation = () => {
                     </div>
                     <div className=" d-none d-md-block">
                         <div className="d-flex MainNav" style={{ gap: '20px'}}>
-                            <NavLink id='link' to='/Aboutus' >About us</NavLink>
-                            <NavLink id='link' to='/ContactUs' >Contact us</NavLink>
-                            <NavLink id='link' to='/OurServices' >Our Services</NavLink>
-                            <NavLink id='link' to='/OurPartners' >Our Partners</NavLink>
+                            <NavLink id='link' to='/pharmarcyapp/Aboutus' >About us</NavLink>
+                            <NavLink id='link' to='/pharmarcyapp/ContactUs' >Contact us</NavLink>
+                            <NavLink id='link' to='/pharmarcyapp/OurServices' >Our Services</NavLink>
+                            <NavLink id='link' to='/pharmarcyapp/OurPartners' >Our Partners</NavLink>
                         </div>
                     </div>
                     <div className="d-none d-md-block">
