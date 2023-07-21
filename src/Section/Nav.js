@@ -9,7 +9,7 @@ const Navigation = () => {
             <div className="">
                 <div className="d-flex fw-bold p-3" style={{ zIndex:'3',justifyContent: 'space-between', backgroundColor: 'rgba(191, 191, 166, 0.9)',width:'100%', position:'fixed'}}>
                     <div className="">
-                        <NavLink className='Header' to='/'>Header</NavLink>
+                        <NavLink className='Header' to='/pharmarcyapp/'>Header</NavLink>
                     </div>
                     <div className=" d-none d-md-block">
                         <div className="d-flex MainNav" style={{ gap: '20px'}}>
