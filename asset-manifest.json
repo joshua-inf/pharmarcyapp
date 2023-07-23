@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/pharmarcyapp/static/css/main.79acb86a.css",
-    "main.js": "/pharmarcyapp/static/js/main.c9b8b518.js",
+    "main.css": "/pharmarcyapp/static/css/main.2dcae89d.css",
+    "main.js": "/pharmarcyapp/static/js/main.b6168c6a.js",
     "static/media/4.jpg": "/pharmarcyapp/static/media/4.a5b0bd4825ef70db6d64.jpg",
     "static/media/10.jpg": "/pharmarcyapp/static/media/10.806d6146834e8918837d.jpg",
     "static/media/19.jpg": "/pharmarcyapp/static/media/19.1ebbafbf329c35d1e627.jpg",
     "static/media/21.jpg": "/pharmarcyapp/static/media/21.cc39ac8289dc4837476b.jpg",
+    "static/media/23.jpg": "/pharmarcyapp/static/media/23.7501bbb62d3240650e9e.jpg",
+    "static/media/22.jpg": "/pharmarcyapp/static/media/22.3abe20296beafa748bf6.jpg",
     "static/media/20.jpg": "/pharmarcyapp/static/media/20.963152fdae1e259aa421.jpg",
     "static/media/14.webp": "/pharmarcyapp/static/media/14.1d4cd42c59523980fc32.webp",
+    "static/media/logo.png": "/pharmarcyapp/static/media/logo.dde04d1ed741b0651210.png",
+    "static/media/logo1.png": "/pharmarcyapp/static/media/logo1.4ec40b0b3616ed1ee1d9.png",
     "index.html": "/pharmarcyapp/index.html",
-    "main.79acb86a.css.map": "/pharmarcyapp/static/css/main.79acb86a.css.map",
-    "main.c9b8b518.js.map": "/pharmarcyapp/static/js/main.c9b8b518.js.map"
+    "main.2dcae89d.css.map": "/pharmarcyapp/static/css/main.2dcae89d.css.map",
+    "main.b6168c6a.js.map": "/pharmarcyapp/static/js/main.b6168c6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.79acb86a.css",
-    "static/js/main.c9b8b518.js"
+    "static/css/main.2dcae89d.css",
+    "static/js/main.b6168c6a.js"
   ]
 }
